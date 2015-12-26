@@ -1,0 +1,35 @@
+{
+  "name": "rbtree",
+  "version": "0.1.0",
+  "description": "Left Leaning Red Black BST",
+  "main": "rbTree.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodeunit": "^0.9.1",
+    "traceur": "0.0.95"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codecakes/rbTree.git"
+  },
+  "keywords": [
+    "red-black",
+    "balanced",
+    "search",
+    "tree",
+    "bst",
+    "left-leaning"
+  ],
+  "author": "codecakes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codecakes/rbTree/issues"
+  },
+  "homepage": "https://github.com/codecakes/rbTree#readme"
+}

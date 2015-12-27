@@ -13,7 +13,7 @@ addons:
     packages:
       - g++-4.8
 before_install:
-  - 'npm i -g babel babel-node'
+  - 'npm i -g babel'
 before_script:
   - 'npm run check'
   - 'npm run prebuild && npm run build && npm run postbuild'

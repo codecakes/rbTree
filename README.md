@@ -11,8 +11,8 @@
           alt='Coverage Status' />
   </a>
 
-  <a href="https://travis-ci.org/codecakes/rbtree">
-    <img src="https://img.shields.io/travis/codecakes/rbtree.svg?style=flat-square"
+  <a href="https://travis-ci.org/codecakes/rbTree">
+    <img src="https://travis-ci.org/codecakes/rbTree.svg"
          alt="Build Status">
   </a>
 
@@ -60,11 +60,13 @@ MIT © [codecakes](https://github.com/codecakes/rbTree.git)
 [npm-url]: https://npmjs.org/package/rbtree
 [npm-image]: https://img.shields.io/npm/v/rbtree.svg?style=flat-square
 
-[travis-url]: https://travis-ci.org/codecakes/rbtree
-[travis-image]: https://img.shields.io/travis/codecakes/rbtree.svg?style=flat-square
+[travis-url]: https://travis-ci.org/codecakes/rbTree
+[travis-image]: https://travis-ci.org/codecakes/rbTree.svg
 
-[coveralls-url]: https://coveralls.io/r/codecakes/rbtree
-[coveralls-image]: https://img.shields.io/coveralls/codecakes/rbtree.svg?style=flat-square
+[![Build Status](https://travis-ci.org/codecakes/rbTree.svg)](https://travis-ci.org/codecakes/rbTree)
+
+[coveralls-url]: https://coveralls.io/github/codecakes/rbTree?branch=master
+[coveralls-image]: https://coveralls.io/repos/codecakes/rbTree/badge.svg?branch=master&service=github
 
 [depstat-url]: https://david-dm.org/codecakes/rbtree
 [depstat-image]: https://david-dm.org/codecakes/rbtree.svg?style=flat-square

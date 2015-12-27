@@ -1,6 +1,6 @@
 {
   "name": "llrbtree",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Left Leaning Red Black BST",
   "main": "dist/index.js",
   "files": [

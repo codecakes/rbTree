@@ -1,6 +1,6 @@
 {
-  "name": "rbtree",
-  "version": "0.1.0",
+  "name": "llrbtree",
+  "version": "1.0.0",
   "description": "Left Leaning Red Black BST",
   "main": "dist/index.js",
   "files": [
@@ -29,9 +29,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codecakes/rbtree.git"
+    "url": "git+https://github.com/codecakes/llrbtree.git"
   },
   "keywords": [
+    "node",
     "red-black",
     "balanced",
     "search",
@@ -39,12 +40,12 @@
     "bst",
     "left-leaning"
   ],
-  "author": "codecakes <akurnya@gmail.com>",
+  "author": "akurnya <akurnya@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codecakes/rbtree/issues"
+    "url": "https://github.com/codecakes/llrbtree/issues"
   },
-  "homepage": "https://github.com/codecakes/rbtree#readme",
+  "homepage": "https://github.com/codecakes/llrbtree#readme",
   "devDependencies": {
     "babel-cli": "^6.3.17",
     "babel-core": "^6.3.26",
@@ -55,7 +56,6 @@
     "doctoc": "*",
     "eslint": "*",
     "isparta": "*",
-    "nodeunit": "^0.9.1",
     "rimraf": "*",
     "tap-spec": "*",
     "tape": "*",

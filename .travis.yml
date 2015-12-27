@@ -14,6 +14,7 @@ addons:
       - g++-4.8
 before_install:
   - 'npm i -g babel'
+  - 'babel --optional runtime src -d dist'
 before_script:
   - 'npm run check'
   - 'npm run prebuild && npm run build && npm run postbuild'

@@ -805,18 +805,19 @@ let
         },
     };
 
-
-exports.tree = orderedST;
-exports.leftRotate = leftRotate;
-exports.rightRotate = rightRotate;
-exports.inOrderTraverse = inOrderTraverse;
-exports.preOrderTraverse = preOrderTraverse;
-exports.postOrderTraverse = postOrderTraverse;
-exports.deleteMin = deleteMin;
-exports.deleteMax = deleteMax;
-exports.del = del;
-exports.min = min;
-exports.max = max;
+module.exports = {
+  tree: orderedST,
+  leftRotate: leftRotate,
+  rightRotate: rightRotate,
+  inOrderTraverse: inOrderTraverse,
+  preOrderTraverse: preOrderTraverse,
+  postOrderTraverse: postOrderTraverse,
+  deleteMin: deleteMin,
+  deleteMax: deleteMax,
+  del: del,
+  min: min,
+  max: max,
+};
 
 // for debugging purposes only
 // let rbTree = Object.create(orderedST);

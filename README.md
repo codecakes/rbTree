@@ -6,9 +6,9 @@
          alt="NPM Version">
   </a>
 
-  <a href="https://coveralls.io/r/codecakes/rbtree">
-    <img src="https://img.shields.io/coveralls/codecakes/rbtree.svg?style=flat-square"
-         alt="Coverage Status">
+  <a href='https://coveralls.io/github/codecakes/rbTree?branch=master'>
+    <img src='https://coveralls.io/repos/codecakes/rbTree/badge.svg?branch=master&service=github'
+          alt='Coverage Status' />
   </a>
 
   <a href="https://travis-ci.org/codecakes/rbtree">

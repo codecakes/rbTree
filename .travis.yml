@@ -12,7 +12,10 @@ addons:
       - ubuntu-toolchain-r-test
     packages:
       - g++-4.8
+before_install:
+  - 'npm i -g babel babel-node'
 before_script:
   - 'npm run check'
+  - 'npm run prebuild && npm run build && npm run postbuild'
 after_script:
   - 'npm run coveralls'

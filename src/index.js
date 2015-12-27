@@ -803,6 +803,12 @@ let
             // treeSize(node.parent);
             return lastNode;
         },
+    },
+
+    rbTree = function rbTree() {
+        let newTree = Object.create(orderedST);
+        newTree.init();
+        return newTree;
     };
 
 module.exports = {
@@ -817,6 +823,7 @@ module.exports = {
   del: del,
   min: min,
   max: max,
+  rbTree: rbTree
 };
 
 // for debugging purposes only

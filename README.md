@@ -46,14 +46,16 @@ npm i -D rbtree
 ## Usage
 
 ```js
-import rbtree from "rbtree"
+<!--Babel-node-->
+import * from "rbtree"
 
-rbtree() // true
+<!--Node style-->
+var newRBTree = require('rbtree').rbTree();
 ```
 
 ## License
 
-MIT © [akurnya](https://github.com/codecakes/rbTree.git)
+MIT © [codecakes](https://github.com/codecakes/rbTree.git)
 
 [npm-url]: https://npmjs.org/package/rbtree
 [npm-image]: https://img.shields.io/npm/v/rbtree.svg?style=flat-square
